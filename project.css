@@ -1,0 +1,105 @@
+header{
+    background-color: #B20837;
+    color: white;
+    padding: 8px;
+    padding-left: 40px;
+      overflow: hidden;
+}
+
+.other{
+    width:355%;
+    height: 150%;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+
+label{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+input[type=text] {
+    width: 58%;
+    padding: 8px 20px;
+    margin: 8px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+     float: inherit;
+    margin-left: 40px;
+}
+
+#drugAndDosage,#additionalnotes{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox{
+    width: 10%
+}
+
+.patientDetails, .medicalHistory, .newPrescription, .btn{
+     padding-left: 40px;
+    
+}
+
+button{
+    background-color:#B20837;
+    width: 200px;
+    height:40px;
+    color: white;
+    
+}
+
+
+.search-container {
+  float: right;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .header .search-container {
+    float: none;
+  }
+  .header input[type=text], .header .search-container  {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .header input[type=text] {
+    border: 1px solid white;  
+  }
+}
+
+.srch{
+    width: 50px;
+    background-color: white;
+}
+
+.srchbttn{
+    width: 50px;
+}
+

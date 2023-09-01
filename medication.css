@@ -1,0 +1,68 @@
+header{
+    background-color: #B20837;
+    color: white;
+    padding: 8px;
+    padding-left: 40px;
+      overflow: hidden;
+}
+
+.other{
+    width:355%;
+    height: 150%;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+
+label{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+input[type=text] {
+    width: 58%;
+    padding: 8px 20px;
+    margin: 8px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+     float: inherit;
+    margin-left: 40px;
+}
+
+#drugAndDosage,#additionalnotes{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox{
+    width: 10%
+}
+
+.patientDetails, .medicalHistory, .newPrescription, {
+     padding-left: 40px;
+    
+}
+
+
+.search-container {
+  float: right;
+}
+
+
+
+
+
+
+
+.srch{
+    width: 50px;
+    background-color: white;
+}
+
+.srchbttn{
+    width: 50px;
+}
+
